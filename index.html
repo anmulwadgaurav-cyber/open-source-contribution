@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>Password Generator</h1>
+      <h3>Generate uncrackable password everytime</h3>
+    </div>
+    <div id="container">
+      <input type="number" id="pass-len" placeholder="Enter password length" />
+      <button id="gen-pass">Generate Password</button>
+      <button id="gen-rand-pass">Random Length Password</button>
+      <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+    </div>
+    <div id="generated">
+      <p id="password" style="color: gray">Password will generate here</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
